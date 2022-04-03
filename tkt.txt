@@ -1,0 +1,86 @@
+<div class="projects">
+					<div class="project">
+						<h4>La création d'un Bot Discord (2 versions : en Python et en JavaScript)</h4>
+						<p class="description">Des Bots Discord servant à plusieurs tâches : discussion, administration etc... Ce sont des robots très fortement inspiré du célèbre Chatbot "Eliza", premier Chatbot conçu par l'humain dans le but d'aider les personnes atteintes d'anxiété et de dépression.</p>
+						<p class="dates">2019 - 20...</p>
+					</div>
+					<div class="project">
+						<h4>Création de sites Web.</h4>
+						<p class="description">Multiple création de sites Internet dans un but de projets scolaires, comme la création d'une marque de Thé dans un projet entièrement régit par l'Anglais, avec la création d'un site de marketing. (Crée sous HTML et non sous l'aide de sites dits "Wordpress"), en me servant de la célèbre framework "Bulma" sous CSS.</p>
+						<p class="dates">2020 - 2021</p>
+					</div>
+					<div class="project">
+						<h4>Création de jeux vidéos sous le langage Python</h4>
+						<p class="description">Création de jeux vidéos du type RPG, l'un développé sous une forme exclusivement textuelle, avec une multitude de choix, et à l'aide d'une méthode appelée la POO (Programmation Orientée Objets), mais également un RPG 2D en pixels, développé grâce au module Pygames.</p>
+						<p class="dates">2021</p>
+					</div>
+				</div>
+
+IMAGE
+
+<section class="presentation-image">
+				<img src="images/main-image.jpg" alt ="image" />
+			</section>
+
+JSPPPPP
+
+<nav>
+			<div class="profile">
+				<img src="images/perso.png" alt="photo perso">
+				<h1>Jad SAMAIN</h1>
+			</div>
+			<ul>
+				<a href="Projets.html" ><li>Mes Projets</li> </a>
+			</ul>
+        </nav>
+
+
+CERLCE
+
+
+.loader{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: linear-gradient(45deg, transparent, transparent 40%, #e5f403);
+    animation: animate 2s linear infinite;
+}
+
+@keyframes animate{
+    0%
+    {
+        transform: rotate(0deg);
+        filter: hue-rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+        filter: hue-rotate(360deg);
+    }
+}
+.loader::before{
+    content: '';
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    right: 6px;
+    bottom: 6px;
+    background: #000;
+    border-radius: 50%;
+    z-index: 1000;
+}
+
+.loader::after{
+    content: '';
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    right: 6px;
+    bottom: 6px;
+    background: linear-gradient(45deg, transparent, transparent 40%, #e5f403)    ;
+    border-radius: 50%;
+    z-index: 1000;
+    z-index: 1;
+    filter: blur(30px)
+}
